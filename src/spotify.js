@@ -23,7 +23,6 @@ export const getTokenFromUrl = () => {
   //#access_token = BQCZo0BpRbMfX9MxgtKTJzwD5osFcqVBpWThv4VKJI_ewe96Vzs7E9p9t3IYhlkh1qgwxv6G
   //- 5Nh8P8J2rwNE2i5h7M4iWP8wsNCjhnKtd - Crg9VG5B0uTs2PwWZ83NsDAjPLGS6Ws8t47XgSxqvHlRse
   //HSyzI4_OTYDxvml_DMVYR5Y & token_type=Bearer & expires_in=3600
-  console.log(window.location);
   return window.location.hash
     .substring(1)
     .split("&")
